@@ -1,0 +1,15 @@
+{
+    "id": "loader",
+    "type": "exe",
+    "deps": [
+        "karm-main",
+        "karm-sys",
+        "karm-io",
+        "karm-fmt"
+    ],
+    "requires": {
+        "sys": [
+            "efi"
+        ]
+    }
+}

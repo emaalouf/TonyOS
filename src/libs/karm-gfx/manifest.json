@@ -1,0 +1,9 @@
+{
+    "id": "karm-gfx",
+    "type": "lib",
+    "description": "A graphics library",
+    "deps": [
+        "karm-media",
+        "karm-math"
+    ]
+}

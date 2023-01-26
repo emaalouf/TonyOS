@@ -1,0 +1,17 @@
+{
+    "id": "embed-posix",
+    "type": "lib",
+    "description": "Karm platform embedding layer for POSIX.",
+    "requires": {
+        "sys": [
+            "linux",
+            "darwin"
+        ]
+    },
+    "inject": [
+        "embed"
+    ],
+    "deps": [
+        "karm-base"
+    ]
+}

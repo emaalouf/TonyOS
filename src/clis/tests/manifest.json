@@ -1,0 +1,13 @@
+{
+    "id": "tests",
+    "type": "exe",
+    "description": "Test suite runner",
+    "deps": [
+        "karm-test"
+    ],
+    "requires": {
+        "freestanding": [
+            false
+        ]
+    }
+}

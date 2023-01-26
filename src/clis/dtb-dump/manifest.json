@@ -1,0 +1,12 @@
+{
+    "id": "dtb-dump",
+    "type": "exe",
+    "description": "Dump a device tree blob",
+    "deps": [
+        "karm-main",
+        "karm-sys",
+        "karm-io",
+        "karm-fmt",
+        "device-tree"
+    ]
+}

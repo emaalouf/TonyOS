@@ -1,0 +1,13 @@
+{
+    "id": "abi-ms",
+    "type": "lib",
+    "description": "Microsoft ABI",
+    "requires": {
+        "abi": [
+            "ms"
+        ]
+    },
+    "inject": [
+        "embed"
+    ]
+}

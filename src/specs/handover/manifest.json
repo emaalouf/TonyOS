@@ -1,0 +1,5 @@
+{
+    "id": "handover",
+    "type": "lib",
+    "description": "The handover boot protocol"
+}

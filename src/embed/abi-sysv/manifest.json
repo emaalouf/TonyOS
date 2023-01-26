@@ -1,0 +1,13 @@
+{
+    "id": "abi-sysv",
+    "type": "lib",
+    "description": "System V ABI",
+    "requires": {
+        "abi": [
+            "sysv"
+        ]
+    },
+    "inject": [
+        "embed"
+    ]
+}

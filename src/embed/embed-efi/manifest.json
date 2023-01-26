@@ -1,0 +1,18 @@
+{
+    "id": "embed-efi",
+    "type": "lib",
+    "description": "Karm platform embedding layer for EFI.",
+    "requires": {
+        "sys": [
+            "efi"
+        ]
+    },
+    "inject": [
+        "embed"
+    ],
+    "deps": [
+        "efi",
+        "abi-ms",
+        "karm-base"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "id": "ls",
+    "type": "exe",
+    "description": "The ls coreutility",
+    "deps": [
+        "karm-main",
+        "karm-sys",
+        "karm-io",
+        "karm-fmt"
+    ]
+}

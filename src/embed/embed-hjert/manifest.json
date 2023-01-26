@@ -1,0 +1,18 @@
+{
+    "id": "embed-hjert",
+    "type": "lib",
+    "description": "Karm platform embedding layer for hjert.",
+    "requires": {
+        "sys": [
+            "hjert"
+        ]
+    },
+    "inject": [
+        "embed"
+    ],
+    "deps": [
+        "abi-sysv",
+        "karm-base",
+        "libheap"
+    ]
+}

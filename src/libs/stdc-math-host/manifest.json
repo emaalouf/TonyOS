@@ -1,0 +1,13 @@
+{
+    "id": "stdc-math-host",
+    "type": "lib",
+    "description": "Place holder for the host stdc math library",
+    "provide": [
+        "stdc-math"
+    ],
+    "requires": {
+        "host": [
+            true
+        ]
+    }
+}

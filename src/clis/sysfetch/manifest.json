@@ -1,0 +1,12 @@
+{
+    "id": "sysfetch",
+    "type": "exe",
+    "description": "Fetches system informations",
+    "deps": [
+        "karm-main",
+        "karm-sys",
+        "karm-io",
+        "karm-fmt",
+        "karm-cli"
+    ]
+}

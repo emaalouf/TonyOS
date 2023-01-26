@@ -1,0 +1,9 @@
+{
+    "id": "demos-app",
+    "type": "exe",
+    "description": "Demo application",
+    "deps": [
+        "karm-main",
+        "karm-ui"
+    ]
+}

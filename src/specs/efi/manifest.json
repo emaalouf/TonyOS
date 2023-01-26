@@ -1,0 +1,13 @@
+{
+    "id": "efi",
+    "type": "lib",
+    "description": "EFI firmware",
+    "requires": {
+        "abi": [
+            "ms"
+        ]
+    },
+    "deps": [
+        "karm-base"
+    ]
+}

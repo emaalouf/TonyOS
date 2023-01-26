@@ -1,0 +1,11 @@
+{
+    "id": "hello-world",
+    "type": "exe",
+    "description": "Greets the world",
+    "deps": [
+        "karm-main",
+        "karm-sys",
+        "karm-io",
+        "karm-fmt"
+    ]
+}

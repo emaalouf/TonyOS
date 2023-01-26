@@ -1,0 +1,8 @@
+{
+    "id": "file-manager",
+    "type": "lib",
+    "description": "Manage files and folders",
+    "deps": [
+        "karm-ui"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "hjert",
+    "description": "The hjert micro-kernel",
+    "type": "exe",
+    "deps": [
+        "hjert-core",
+        "hjert-arch",
+        "hjert-api"
+    ]
+}

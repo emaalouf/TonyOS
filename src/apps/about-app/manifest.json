@@ -1,0 +1,9 @@
+{
+    "id": "about-app",
+    "type": "exe",
+    "description": "About the skift operating system",
+    "deps": [
+        "karm-main",
+        "karm-ui"
+    ]
+}

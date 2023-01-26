@@ -1,0 +1,8 @@
+{
+    "id": "embed",
+    "type": "lib",
+    "description": "Karm platform embedding layer.",
+    "deps": [
+        "karm-base"
+    ]
+}
