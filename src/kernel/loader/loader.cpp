@@ -21,7 +21,7 @@ Error load(Sys::Path kernelPath) {
     logInfo("loader: payload at vaddr: 0x{x} paddr: 0x{x}", payloadMem.vaddr(), payloadMem.paddr());
     Handover::Builder payload{payloadMem.mutBytes()};
 
-    payload.agent("skift loader");
+    payload.agent("Tony loader");
     payload.add(Handover::SELF, 0, payloadMem.prange());
 
     logInfo("loader: loading kernel file...");

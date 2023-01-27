@@ -53,7 +53,7 @@ Ui::Child breadcrumb() {
             breadcrumbItem("home", 3),
             breadcrumbItem("smnx", 2),
             breadcrumbItem("projects", 1),
-            breadcrumbItem("skift", 0),
+            breadcrumbItem("Tony", 0),
             Ui::grow(),
             Ui::button(Model::bind<AddBookmark>(), Ui::ButtonStyle::subtle(), Media::Icons::BOOKMARK)));
 }

@@ -29,7 +29,7 @@ long double fabsl(long double x);
 #define M_2_PI (M_PI * 2.0)
 #define M_2_SQRTPI 1.12837916709551257390 /* 2/sqrt(pi) */
 
-#if defined(_XHJ_OPEN_SOURCE) || defined(_GNU_SOURCE) || defined(_BSD_SOURCE) || defined(_SKIFT_SOURCE)
+#if defined(_XHJ_OPEN_SOURCE) || defined(_GNU_SOURCE) || defined(_BSD_SOURCE) || defined(_Tony_SOURCE)
 #    define M_E 2.7182818284590452354       /* e */
 #    define M_LOG2E 1.4426950408889634074   /* log_2 e */
 #    define M_LOG10E 0.43429448190325182765 /* log_10 e */
@@ -51,7 +51,7 @@ double yn(int, double);
 
 #endif
 
-#if defined(_GNU_SOURCE) || defined(_BSD_SOURCE) || defined(_SKIFT_SOURCE)
+#if defined(_GNU_SOURCE) || defined(_BSD_SOURCE) || defined(_Tony_SOURCE)
 #    define HUGE 3.40282346638528859812e+38F
 
 double drem(double, double);

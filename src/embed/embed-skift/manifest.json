@@ -1,10 +1,10 @@
 {
-    "id": "embed-skift",
+    "id": "embed-Tony",
     "type": "lib",
-    "description": "Karm platform embedding layer for skift.",
+    "description": "Karm platform embedding layer for Tony.",
     "requires": {
         "sys": [
-            "skift"
+            "Tony"
         ]
     },
     "inject": [

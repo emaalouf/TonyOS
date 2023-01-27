@@ -52,8 +52,8 @@ Result<UserInfo> userinfo();
 
 Result<Vec<UserInfo>> usersinfo();
 
-inline bool isSkift() {
-#ifdef D__osdk_sys_skift__
+inline bool isTony() {
+#ifdef D__osdk_sys_Tony__
     return true;
 #else
     return false;
